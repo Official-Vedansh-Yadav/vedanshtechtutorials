@@ -87,11 +87,18 @@ pre{
                 align-items: center;
         }
         .col-md-4{
-                width: 100% !important;
+                width: 60% !important;
                 margin-bottom: 10px;
         }
         #carouselExampleCaptions iframe{
         width: 100% !important;
         height: 300px !important;
+        }
 }
+
+@media only screen and (max-width: 400px){
+        .col-md-4{
+                width: 100% !important;
+                margin-bottom: 10px;
+        }
 }
