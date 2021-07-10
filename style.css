@@ -34,7 +34,7 @@ pre{
 }
 
 .bg-cool{
-        background-color: #dfe6e9;
+        background-color: #dfe6e9 !important;
         /* background: #e9ecef; */
 }
 .column-center{
@@ -61,7 +61,7 @@ pre{
 .construction{
         width: 100%;
         height: 85vh;
-        background-color: #dfe6e9;
+        background-color: #dfe6e9 !important;
 }
 
 .col-md-4{
