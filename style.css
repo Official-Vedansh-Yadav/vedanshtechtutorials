@@ -18,6 +18,7 @@ pre{
 
 .flex{
         display: flex !important;
+        flex-wrap: wrap !important;
 }
 
 .flex-column{
@@ -79,7 +80,7 @@ pre{
         height: 500px;
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1000px){
         .d-md-flex-column{
                 display: flex !important;
                 flex-direction: column !important;
