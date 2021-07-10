@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="favicon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="prism/prism.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Tutorial : 3</title>
+  </head>
+  <body>
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vedansh Tech Tutorials</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="webdevelopment.html">web Development</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>  
+            </ul>
+            <div class="d-flex">
+              <a class="btn btn-outline-success text-info" href="blog.html">Blogs</a>
+              <a class="btn btn-outline-success text-info mx-2" href="video.html">Video</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- NavBar ends -->
+
+ 
+
+    <!-- youtube video iframe -->
+
+    <iframe   src="https://www.youtube.com/embed/8xjng8209Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="iframe"></iframe>
+
+    <!-- youtube video iframe ends -->
+
+    <div class="container my-3">
+      <h1><u>&rarr; HTML & WEB-DEVELOPMENT TUTORIAL : 3</u></h1>
+      <hr>
+      <br>
+      <p>Click On this button to download pdf source code :- <a href="" class="btn btn-success">Download</a></p>
+    </div>
+
+    <hr>
+
+    <div class="container my-4 d-flex-column" style="display: flex; flex-direction: column; min-height: 71vh;">
+      <h2>What is in this lesson?</h2>
+      <p>In this video I will teach you about comment, br, hr, heading and paragraph tags. So before starting Please Subscribe my channel and like the video and kindly save our playlist.</p>
+      <br><hr>
+      <br>
+      <h3>Comments</h3>
+      <p>Comments are used to mark text which should not be rendered or shown on browser. They can help in identifying tags <br>
+        Syntax = <!—comment --></p>
+      <h4>For Example :- </h4>
+      <pre class="language-html"><code>&lt;!-- This is a Comment --></code></pre>
+      <p>It will be not rendered on the page but shown in the page source</p>
+      <br><hr><br>
+      <h3>Heading tags</h3>
+      <p>Heading tag is used to mark heading in HTML. From h1 to h6, we have these tag to make heading and the size of text decreases from h1 to h6
+        <ul>
+        <li>&lt;h1&gt;Biggest heading&lt;/h1&gt;</li>
+        <li>&lt;h2&gt;might smaller heading&lt;/h2&gt;</li>
+        <li>&lt;h3&gt;more smaller heading&lt;/h3&gt;</li>
+        <li>&lt;h4&gt;smaller heading than h3&lt;/h4&gt;</li>
+        <li>&lt;h5&gt;smaller heading than h4&lt;/h5&gt;</li>
+        <li>&lt;h6&gt;smallest heading&lt;/h6&gt;</li>
+        </ul>
+      </p>
+      <h4>For Example</h4>
+      <pre class="language-html"><code>&lt;h1&gt;Vedansh Tech Tutorials&lt;/h1&gt;
+&lt;h2&gt;Vedansh tech Tutorials&lt;/h2&gt;
+&lt;h3&gt;Vedansh Tech Tutorials&lt;/h3&gt;
+&lt;h4&gt;Vedansh Tech Tutorials&lt;/h4&gt;
+&lt;h5&gt;Vedansh Tech Tutorials&lt;/h5&gt;
+&lt;h6&gt;Vedansh Tech Tutorials&lt;/h6&gt;</code></pre>
+      <h3>OutPut :- </h3>
+      <img src="img/heading.PNG" alt="Output of Heading Tags" class="w-100 h-400px border">
+      <br><hr><br>
+      <h3>Paragraph Tag</h3>
+      <p>Paragraph tag is used to add paragraphs to an html page. <br>
+       <pre class="language-html"><code>For ex. = &lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
+        </p>
+      <br><hr><br>
+      <h3>br Tag</h3>
+      <p>The br tag is used to create line breaks means for breaking lines in an html document. It is an empty element.<br>
+       <pre class="language-html"><code>Syntax = &lt;br&gt;</code></pre>
+        </p>
+      <br><hr><br>
+      <h3>hr Tag</h3>
+      <p>The hr tag is used to create a horizontal line often used to separate the content. It is also a empty tag like br tag.
+      <pre class="language-html"><code>Syntax = &lt;hr&gt;</code></pre>
+         </p>
+      <br><hr><br>
+      <h2>code as described below :- </h2>
+      <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Comments,hr,br,heading and paragraph tags in html&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Vedansh Tech Tutorials&lt;/h1&gt; &lt;!-- This is heading 1 --&gt;
+&lt;hr&gt;
+&lt;h2&gt;Vedansh tech Tutorials&lt;/h2&gt;
+&lt;h3&gt;Vedansh Tech Tutorials&lt;/h3&gt;
+&lt;h4&gt;Vedansh Tech Tutorials&lt;/h4&gt;
+&lt;h5&gt;Vedansh Tech Tutorials&lt;/h5&gt;
+&lt;h6&gt;Vedansh Tech Tutorials&lt;/h6&gt;
+&lt;p&gt;This is 3rd Tutorials of Complete &lt;br&gt; Web Development Course.&lt;/p&gt;
+&lt;!-- This is a comment --&gt;
+&lt;!-- This is Third video of Complete Web Development Course --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      <br><hr><br>
+      <div class="next-perviousButtons w-100">
+      <a href="basictags.html" class="btn btn-danger" style="float: left !important; align-self: flex-start;">&larr; Previous</a>
+      <a href="anchor.html" class="btn btn-danger" style="float: right !important; align-self: flex-end;">Next &rarr;</a>
+      </div>
+    </div>
+
+    <!-- footer  -->
+
+ <footer class="py-3 bg-dark mb-0 d-flex justify-content-center align-items-center" style="height: 50px;">
+     <p class="text-center w-100 text-light">Copyright &copy; - VedanshTechTutorials  <a href="https://www.facebook.com/VedanshTechTutorials" class="fa fa-facebook-square fa-2x d-inline-block text-light text-decoration-none" target="_blank"></a>  <a href="https://www.instagram.com/VedanshTechTutorials" class="fa fa-instagram fa-2x d-inline-block text-light text-decoration-none" target="_blank"></a>  <a href="https://www.youtube.com/" class="fa fa-youtube fa-2x d-inline-block text-light text-decoration-none" target="_blank"></a></p>
+ </footer>
+
+  <!-- footer ends -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="Bootstrap/js/jquery.js"></script>
+    <script src="prism/prism.js"></script>
+  </body>
+</html>

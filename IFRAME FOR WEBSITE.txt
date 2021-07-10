@@ -1,0 +1,47 @@
+VIDEO 1 - IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/keYEZJwYngc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+VIDEO 2 IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/CVPteQ7hhBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+VIDEO 3 IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/8xjng8209Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+VIDEO 4 IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/yBbbTbvCS5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+VIDEO 5 IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/auGsSLXQ1Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+ 
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+HOW TO BECOME WEB DEVELOPER IFRAME
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/yfQ9FXiZy9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+create a website in 5 minutes iframe
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/VD_G1HxdBEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+Complete web development course
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/keYEZJwYngc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
