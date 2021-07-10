@@ -33,6 +33,9 @@ pre{
         align-items: center !important;
 }
 
+.bg-cool{
+        background: #e9ecef;
+}
 .column-center{
         display: flex !important;
         flex-direction: column !important;
