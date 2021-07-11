@@ -26,7 +26,7 @@ document.onkeypress = (e)=>{
 document.onkeydown = (e)=>{
     if (e.keyCode == 13) {
         // testwords.style.display = "none";
-        acc = ((a-wrongword)/a)*100;
+        acc = Math.floor(((a-wrongword)/a)*100);
         testwords.innerHTML = `Your accuracy is ${acc} %`;
     }
 }
